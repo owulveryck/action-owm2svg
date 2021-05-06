@@ -1,5 +1,21 @@
 # Create a SVG representation of an onlinewardleymap
 
+This action creates a SVG representation of a [`owm`](https://onlinewardleymaps.com/) file.
+The output has the same name of the input with a `svg` suffix.
+
+## Inputs
+
+### `owmfile`
+
+**Required** The name of the input file in owm format.
+
+## Outputs
+
+### svgfile
+
+The SVG filename
+
+## Example usage
 
 ```yml
 name: owm2svg example
