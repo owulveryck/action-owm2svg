@@ -5,7 +5,7 @@ The output has the same name of the input with a `svg` suffix.
 
 ## Inputs
 
-### `owmfile`
+### owmfile
 
 **Required** The name of the input file in owm format.
 
