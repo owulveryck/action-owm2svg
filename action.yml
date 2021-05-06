@@ -1,6 +1,9 @@
 name: 'action-owm2svg'
 description: 'This action turns an onlinewardleymap into SVG'
 author: 'Olivier Wulveryck'
+branding:
+  icon: 'image'
+  color: 'purple'
 inputs:
   owmFile:              # change this
     description: 'The owm file'
