@@ -1,0 +1,3 @@
+93f4b53b432127bb689e6f6aceb147e01c0f18186b1a2b3e0f26f4399f1bcc2a  main_v0.0.0-next_windows_amd64.exe
+9dae11c2a831bde7ddce40d00c4916d68d956d60954d316e4cc4c9acf7798c2d  main_v0.0.0-next_linux_amd64
+b6c60333a9db0c4eed292e56c4c9571946d6a40ee99a739f39232fbb5509c13d  main_v0.0.0-next_darwin_amd64

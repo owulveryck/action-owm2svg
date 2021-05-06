@@ -968,9 +968,9 @@ const path = __importStar(__webpack_require__(622));
 const os = __importStar(__webpack_require__(87));
 function binPath() {
     if (os.platform() === 'win32') {
-        return 'action-owm2svg_windows_amd64/main.exe';
+        return 'dist/action-owm2svg_windows_amd64/main.exe';
     }
-    return path.join(__dirname, ['action-owm2svg_',os.platform(),'_amd64'].join(''),'main');
+    return path.join(__dirname, 'dist',['action-owm2svg_',os.platform(),'_amd64'].join(''),'main');
 }
 exports.binPath = binPath;
 function go(args, stdout) {
