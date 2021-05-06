@@ -12,5 +12,12 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: ./
-      with: 
-        milliseconds: 1000
+      with:
+        owmfile: 'sample/test.owm'
+    - name: Push to doc branch
+      uses: Automattic/action-commit-to-branch@master
+      with:
+        branch: 'doc'
+        commit_message: 'SVG Generation'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
